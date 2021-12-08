@@ -23,25 +23,25 @@
 }
 body{
     background-color: var(--cor02);
+    background-attachment: fixed;
 }
 header{
     background-image: linear-gradient(to bottom, var(--cor03),var(--cor04),var(--cor05));
     width: 100%;
     text-align: center;
     color: whitesmoke;
-    padding: 30px;
     text-shadow: 2px 2px 10px black;
 
 }
 header > h1{
     font-family: var(--fonte-destaque);
     font-size: 40px;
-    padding-bottom: 10px;
+    padding: 10px;
     font-weight: normal;
 }
 header > p{
     font-family: var(--fonte-padrao);   
-    
+    padding-bottom: 20px;
 }
 nav{
     width: 100%;    
